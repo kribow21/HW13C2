@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-
+    <PageBody/>
   </div>
 </template>
 
 <script>
 
-
+import PageBody from './components/PageBody.vue'
 export default {
   name: "App",
   components: {
-
+    PageBody
   },
 };
 </script>
@@ -22,6 +22,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
